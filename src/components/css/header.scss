@@ -1,0 +1,115 @@
+$primary: #fff;
+$topnav-background-color: $primary;
+:host {
+  .navbar {
+    position: fixed;
+    background-color: $topnav-background-color; // color: red;
+    .navbar-brand-logo {
+      // color: #fff;
+      width: 186px;
+      font-size: 200%;
+      a {
+        text-decoration: none;
+      }
+    }
+    .router-link-active {
+      color: #fff !important;
+    }
+    .notification {
+      .dropdown-menu {
+        width: 415px;
+      }
+      .main-badge {
+        position: absolute;
+        top: 7px;
+        border-radius: 15px;
+        right: 10px;
+        line-height: inherit;
+        width: 20px;
+      }
+      .last {
+        white-space: initial;
+      }
+      a.dropdown-toggle {
+        margin-top: 0.65rem;
+      }
+    }
+  }
+  .messages {
+    width: 300px;
+    .media {
+      border-bottom: 1px solid #ddd;
+      padding: 5px 10px;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .media-body {
+      h5 {
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .small {
+        margin: 0;
+      }
+      .last {
+        font-size: 12px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.dropdown-no-icon::after {
+  display: none;
+}
+
+#cart {
+    position: relative;
+    top: -14px;
+    left: -8px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ff9c00;
+    font-size: 12px;
+    text-align: center;
+    min-width: 30px;
+    max-width: 30px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+@media screen {
+  .modal-adaptive {
+    width: 100px !important;
+  }
+}
+
+.logo {
+  color: #202020;
+}
+
+.name-logo {
+  color: #26ac60;
+}
+
+.header {
+  height: 65px;
+  border-bottom: 1px solid #dfe3e8;
+
+}
+
+.pd-right-20 {
+    padding-right: 20px;
+}
+.navbar-brand-logo{
+    width: 186px;
+    font-size: 200%;
+}
+.mr_t_10{
+    margin-top: -10px;
+}
